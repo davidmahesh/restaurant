@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Items</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ff6347;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .food-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .food-image {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #ff6347;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Delicious Menu</h1>
+    </header>
+
+    <section class="food-container">
+        <!-- Food Item 1 -->
+        <div class="food-item">
+            <img src="salad.jpg" alt="Salad" class="food-image">
+            <h2>salad</h2>
+            <p>A juicy grilled beef patty with lettuce, tomato, and cheese.</p>
+           <!-- <p><strong>Price:</strong> $8.99</p> -->
+            <!--<button onclick="addToCart('Burger')">Add to Cart</button>-->
+        </div>
+
+        <!-- Food Item 2 -->
+        <div class="food-item">
+            <img src="salad.jpg" alt="Salad" class="food-image">
+            <h2>Pizza</h2>
+            <p>Cheesy, hot pizza topped with fresh tomatoes and basil.</p>
+            <p><strong>Price:</strong> $12.99</p>
+            <!--<button onclick="addToCart('Pizza')">Add to Cart</button>-->
+        </div>
+
+        <!-- Food Item 3 -->
+        <div class="food-item">
+            <img src="salad.jpg" alt="Salad" class="food-image">
+            <h2>Fresh Salad</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+
+        <!-- Food Item 4 -->
+        <div class="food-item">
+            <img src="biryani.jpg" alt="Biryani" class="food-image">
+            <h2>Biryani</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+
+        <!-- Food Item 4 -->
+        <div class="food-item">
+            <img src="biryani.jpg" alt="Biryani" class="food-image">
+            <h2>Biryani</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+        
+        <!-- Food Item 4 -->
+        <div class="food-item">
+            <img src="biryani.jpg" alt="Biryani" class="food-image">
+            <h2>Biryani</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+        
+        <!-- Food Item 4 -->
+        <div class="food-item">
+            <img src="biryani.jpg" alt="Biryani" class="food-image">
+            <h2>Biryani</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+        
+        <!-- Food Item 4 -->
+        <div class="food-item">
+            <img src="biryani.jpg" alt="Biryani" class="food-image">
+            <h2>Biryani</h2>
+            <p>Crispy greens with cucumbers, tomatoes, and olive oil dressing.</p>
+            <p><strong>Price:</strong> $6.99</p>
+            <!--<button onclick="addToCart('Fresh Salad')">Add to Cart</button>-->
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>© 2024 Eden Garden. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart(itemName) {
+            alert(itemName + " has been added to your cart!");
+        }
+    </script>
+
+</body>
+</html>
